@@ -26,7 +26,7 @@ let package = Package(name: "RxAlamofire",
                         .target(name: "RxAlamofire",
                                 dependencies: [
                                   .product(name: "RxSwift", package: "RxSwift"),
-                                  .product(name: "Alamofire", package: "Alamofire"),
+                                  .product(name: "AlamofireDynamic", package: "Alamofire"),
                                   .product(name: "RxCocoa", package: "RxSwift")
                                 ],
                                 path: "Sources"),
